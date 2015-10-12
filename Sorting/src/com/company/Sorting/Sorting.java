@@ -1,5 +1,7 @@
 package com.company.Sorting;
 
+import com.company.Data.GetData;
+
 /**
  * Created by semen on 28.09.2015.
  */
@@ -17,14 +19,12 @@ public abstract class Sorting {
 
 
 
-   // protected abstract  int[] sort(int[] array);
+    protected abstract  int[] sort(int[] array);
 
-    public static void print(int[] array){
-        System.out.print("[ ");
-        for( int x: array)
-            System.out.print(x+" ");
-        System.out.print("]");
-    }
+   // protected abstract  int[] sort(int[] array, int start, int end);
+
+
+
 
     protected static void swap(int[] array, int i, int j){
         if( array[i]!=array[j]){
